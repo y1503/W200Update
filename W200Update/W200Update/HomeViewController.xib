@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="downLoadBtn" destination="1UJ-5T-gdN" id="3gT-L2-AV9"/>
                 <outlet property="imageView" destination="Q6l-RI-caO" id="EOH-oI-NXa"/>
+                <outlet property="mTableView" destination="Tk1-9J-47S" id="HTO-uO-zk1"/>
                 <outlet property="progressView" destination="uOO-4z-NBl" id="wiw-3i-VY7"/>
                 <outlet property="updateBtn" destination="Fgd-JS-aP3" id="5FL-a3-IQz"/>
                 <outlet property="versionBtn" destination="unx-AW-4Pt" id="2A2-Nq-ok9"/>
@@ -48,14 +49,20 @@
                         <action selector="clickedBtn:" destination="-1" eventType="touchUpInside" id="VYU-Y0-44H"/>
                     </connections>
                 </button>
-                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uOO-4z-NBl">
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uOO-4z-NBl">
                     <rect key="frame" x="16" y="71" width="343" height="2"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </progressView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q6l-RI-caO">
                     <rect key="frame" x="137" y="96" width="100" height="100"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.01258389262" green="0.75686274509999996" blue="0.4039215686" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Tk1-9J-47S">
+                    <rect key="frame" x="16" y="449" width="343" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <point key="canvasLocation" x="12.5" y="-109.5"/>

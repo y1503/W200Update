@@ -33,6 +33,7 @@
 		D9F68FA91E08C99000B631E4 /* charge9.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F981E08C99000B631E4 /* charge9.png */; };
 		D9F68FAA1E08C99000B631E4 /* resize_music.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F991E08C99000B631E4 /* resize_music.png */; };
 		D9F68FAB1E08C99000B631E4 /* xlistview_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F9A1E08C99000B631E4 /* xlistview_arrow.png */; };
+		D9F699581E091A9E00B631E4 /* wavemake.c in Sources */ = {isa = PBXBuildFile; fileRef = D9F699511E091A9E00B631E4 /* wavemake.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		D9F68F981E08C99000B631E4 /* charge9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge9.png; sourceTree = "<group>"; };
 		D9F68F991E08C99000B631E4 /* resize_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resize_music.png; sourceTree = "<group>"; };
 		D9F68F9A1E08C99000B631E4 /* xlistview_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xlistview_arrow.png; sourceTree = "<group>"; };
+		D9F699511E091A9E00B631E4 /* wavemake.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = wavemake.c; sourceTree = "<group>"; };
 		DFB397DE524BEB8ABCE8EE8C /* Pods-W200Update.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W200Update.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W200Update/Pods-W200Update.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,6 +161,7 @@
 		D9F68F4D1E08C2C000B631E4 /* W200Update */ = {
 			isa = PBXGroup;
 			children = (
+				D9F699361E08FBD500B631E4 /* sourcefiles */,
 				D9F68F891E08C99000B631E4 /* images */,
 				D9F68F511E08C2C000B631E4 /* AppDelegate.h */,
 				D9F68F521E08C2C000B631E4 /* AppDelegate.m */,
@@ -221,6 +224,14 @@
 				D9F68F9A1E08C99000B631E4 /* xlistview_arrow.png */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		D9F699361E08FBD500B631E4 /* sourcefiles */ = {
+			isa = PBXGroup;
+			children = (
+				D9F699511E091A9E00B631E4 /* wavemake.c */,
+			);
+			path = sourcefiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -429,6 +440,7 @@
 			files = (
 				D9F68F531E08C2C000B631E4 /* AppDelegate.m in Sources */,
 				D9F68F501E08C2C000B631E4 /* main.m in Sources */,
+				D9F699581E091A9E00B631E4 /* wavemake.c in Sources */,
 				D9F68F871E08C5ED00B631E4 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
