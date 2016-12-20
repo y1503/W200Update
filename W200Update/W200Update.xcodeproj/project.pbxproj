@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644E32E850908B5C7BE0988F /* libPods-W200Update.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 843C34FC7BCCA34908170DFA /* libPods-W200Update.a */; };
+		D9F68F501E08C2C000B631E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F68F4F1E08C2C000B631E4 /* main.m */; };
+		D9F68F531E08C2C000B631E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F68F521E08C2C000B631E4 /* AppDelegate.m */; };
+		D9F68F5E1E08C2C000B631E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F5D1E08C2C000B631E4 /* Assets.xcassets */; };
+		D9F68F611E08C2C000B631E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F5F1E08C2C000B631E4 /* LaunchScreen.storyboard */; };
+		D9F68F6C1E08C2C000B631E4 /* W200UpdateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F68F6B1E08C2C000B631E4 /* W200UpdateTests.m */; };
+		D9F68F771E08C2C000B631E4 /* W200UpdateUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F68F761E08C2C000B631E4 /* W200UpdateUITests.m */; };
+		D9F68F871E08C5ED00B631E4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F68F851E08C5ED00B631E4 /* HomeViewController.m */; };
+		D9F68F881E08C5ED00B631E4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F861E08C5ED00B631E4 /* HomeViewController.xib */; };
+		D9F68F9B1E08C99000B631E4 /* button_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F8A1E08C99000B631E4 /* button_blue.png */; };
+		D9F68F9C1E08C99000B631E4 /* button_green.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F8B1E08C99000B631E4 /* button_green.png */; };
+		D9F68F9D1E08C99000B631E4 /* button_scan_red.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F8C1E08C99000B631E4 /* button_scan_red.png */; };
+		D9F68F9E1E08C99000B631E4 /* charg1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F8D1E08C99000B631E4 /* charg1.png */; };
+		D9F68F9F1E08C99000B631E4 /* charge0.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F8E1E08C99000B631E4 /* charge0.png */; };
+		D9F68FA01E08C99000B631E4 /* charge1.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F8F1E08C99000B631E4 /* charge1.png */; };
+		D9F68FA11E08C99000B631E4 /* charge10.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F901E08C99000B631E4 /* charge10.png */; };
+		D9F68FA21E08C99000B631E4 /* charge2.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F911E08C99000B631E4 /* charge2.png */; };
+		D9F68FA31E08C99000B631E4 /* charge3.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F921E08C99000B631E4 /* charge3.png */; };
+		D9F68FA41E08C99000B631E4 /* charge4.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F931E08C99000B631E4 /* charge4.png */; };
+		D9F68FA51E08C99000B631E4 /* charge5.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F941E08C99000B631E4 /* charge5.png */; };
+		D9F68FA61E08C99000B631E4 /* charge6.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F951E08C99000B631E4 /* charge6.png */; };
+		D9F68FA71E08C99000B631E4 /* charge7.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F961E08C99000B631E4 /* charge7.png */; };
+		D9F68FA81E08C99000B631E4 /* charge8.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F971E08C99000B631E4 /* charge8.png */; };
+		D9F68FA91E08C99000B631E4 /* charge9.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F981E08C99000B631E4 /* charge9.png */; };
+		D9F68FAA1E08C99000B631E4 /* resize_music.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F991E08C99000B631E4 /* resize_music.png */; };
+		D9F68FAB1E08C99000B631E4 /* xlistview_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F68F9A1E08C99000B631E4 /* xlistview_arrow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F68F681E08C2C000B631E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F68F431E08C2C000B631E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F68F4A1E08C2C000B631E4;
+			remoteInfo = W200Update;
+		};
+		D9F68F731E08C2C000B631E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9F68F431E08C2C000B631E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9F68F4A1E08C2C000B631E4;
+			remoteInfo = W200Update;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B6CB6253AC5EFF248F2BD0E /* Pods-W200Update.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W200Update.release.xcconfig"; path = "Pods/Target Support Files/Pods-W200Update/Pods-W200Update.release.xcconfig"; sourceTree = "<group>"; };
+		843C34FC7BCCA34908170DFA /* libPods-W200Update.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-W200Update.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F68F4B1E08C2C000B631E4 /* W200Update.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = W200Update.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F68F4F1E08C2C000B631E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F68F511E08C2C000B631E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D9F68F521E08C2C000B631E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D9F68F5D1E08C2C000B631E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9F68F601E08C2C000B631E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9F68F621E08C2C000B631E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F68F671E08C2C000B631E4 /* W200UpdateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W200UpdateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F68F6B1E08C2C000B631E4 /* W200UpdateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W200UpdateTests.m; sourceTree = "<group>"; };
+		D9F68F6D1E08C2C000B631E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F68F721E08C2C000B631E4 /* W200UpdateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = W200UpdateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F68F761E08C2C000B631E4 /* W200UpdateUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = W200UpdateUITests.m; sourceTree = "<group>"; };
+		D9F68F781E08C2C000B631E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F68F841E08C5ED00B631E4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		D9F68F851E08C5ED00B631E4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		D9F68F861E08C5ED00B631E4 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		D9F68F8A1E08C99000B631E4 /* button_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_blue.png; sourceTree = "<group>"; };
+		D9F68F8B1E08C99000B631E4 /* button_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green.png; sourceTree = "<group>"; };
+		D9F68F8C1E08C99000B631E4 /* button_scan_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_scan_red.png; sourceTree = "<group>"; };
+		D9F68F8D1E08C99000B631E4 /* charg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charg1.png; sourceTree = "<group>"; };
+		D9F68F8E1E08C99000B631E4 /* charge0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge0.png; sourceTree = "<group>"; };
+		D9F68F8F1E08C99000B631E4 /* charge1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge1.png; sourceTree = "<group>"; };
+		D9F68F901E08C99000B631E4 /* charge10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge10.png; sourceTree = "<group>"; };
+		D9F68F911E08C99000B631E4 /* charge2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge2.png; sourceTree = "<group>"; };
+		D9F68F921E08C99000B631E4 /* charge3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge3.png; sourceTree = "<group>"; };
+		D9F68F931E08C99000B631E4 /* charge4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge4.png; sourceTree = "<group>"; };
+		D9F68F941E08C99000B631E4 /* charge5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge5.png; sourceTree = "<group>"; };
+		D9F68F951E08C99000B631E4 /* charge6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge6.png; sourceTree = "<group>"; };
+		D9F68F961E08C99000B631E4 /* charge7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge7.png; sourceTree = "<group>"; };
+		D9F68F971E08C99000B631E4 /* charge8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge8.png; sourceTree = "<group>"; };
+		D9F68F981E08C99000B631E4 /* charge9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = charge9.png; sourceTree = "<group>"; };
+		D9F68F991E08C99000B631E4 /* resize_music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resize_music.png; sourceTree = "<group>"; };
+		D9F68F9A1E08C99000B631E4 /* xlistview_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xlistview_arrow.png; sourceTree = "<group>"; };
+		DFB397DE524BEB8ABCE8EE8C /* Pods-W200Update.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-W200Update.debug.xcconfig"; path = "Pods/Target Support Files/Pods-W200Update/Pods-W200Update.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9F68F481E08C2C000B631E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644E32E850908B5C7BE0988F /* libPods-W200Update.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F68F641E08C2C000B631E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F68F6F1E08C2C000B631E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52077046471F27C024EC10BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843C34FC7BCCA34908170DFA /* libPods-W200Update.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CBC743BAF136E11678EFFBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFB397DE524BEB8ABCE8EE8C /* Pods-W200Update.debug.xcconfig */,
+				1B6CB6253AC5EFF248F2BD0E /* Pods-W200Update.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9F68F421E08C2C000B631E4 = {
+			isa = PBXGroup;
+			children = (
+				D9F68F4D1E08C2C000B631E4 /* W200Update */,
+				D9F68F6A1E08C2C000B631E4 /* W200UpdateTests */,
+				D9F68F751E08C2C000B631E4 /* W200UpdateUITests */,
+				D9F68F4C1E08C2C000B631E4 /* Products */,
+				5CBC743BAF136E11678EFFBF /* Pods */,
+				52077046471F27C024EC10BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D9F68F4C1E08C2C000B631E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9F68F4B1E08C2C000B631E4 /* W200Update.app */,
+				D9F68F671E08C2C000B631E4 /* W200UpdateTests.xctest */,
+				D9F68F721E08C2C000B631E4 /* W200UpdateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9F68F4D1E08C2C000B631E4 /* W200Update */ = {
+			isa = PBXGroup;
+			children = (
+				D9F68F891E08C99000B631E4 /* images */,
+				D9F68F511E08C2C000B631E4 /* AppDelegate.h */,
+				D9F68F521E08C2C000B631E4 /* AppDelegate.m */,
+				D9F68F841E08C5ED00B631E4 /* HomeViewController.h */,
+				D9F68F851E08C5ED00B631E4 /* HomeViewController.m */,
+				D9F68F861E08C5ED00B631E4 /* HomeViewController.xib */,
+				D9F68F5D1E08C2C000B631E4 /* Assets.xcassets */,
+				D9F68F5F1E08C2C000B631E4 /* LaunchScreen.storyboard */,
+				D9F68F621E08C2C000B631E4 /* Info.plist */,
+				D9F68F4E1E08C2C000B631E4 /* Supporting Files */,
+			);
+			path = W200Update;
+			sourceTree = "<group>";
+		};
+		D9F68F4E1E08C2C000B631E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9F68F4F1E08C2C000B631E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9F68F6A1E08C2C000B631E4 /* W200UpdateTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F68F6B1E08C2C000B631E4 /* W200UpdateTests.m */,
+				D9F68F6D1E08C2C000B631E4 /* Info.plist */,
+			);
+			path = W200UpdateTests;
+			sourceTree = "<group>";
+		};
+		D9F68F751E08C2C000B631E4 /* W200UpdateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F68F761E08C2C000B631E4 /* W200UpdateUITests.m */,
+				D9F68F781E08C2C000B631E4 /* Info.plist */,
+			);
+			path = W200UpdateUITests;
+			sourceTree = "<group>";
+		};
+		D9F68F891E08C99000B631E4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D9F68F8A1E08C99000B631E4 /* button_blue.png */,
+				D9F68F8B1E08C99000B631E4 /* button_green.png */,
+				D9F68F8C1E08C99000B631E4 /* button_scan_red.png */,
+				D9F68F8D1E08C99000B631E4 /* charg1.png */,
+				D9F68F8E1E08C99000B631E4 /* charge0.png */,
+				D9F68F8F1E08C99000B631E4 /* charge1.png */,
+				D9F68F901E08C99000B631E4 /* charge10.png */,
+				D9F68F911E08C99000B631E4 /* charge2.png */,
+				D9F68F921E08C99000B631E4 /* charge3.png */,
+				D9F68F931E08C99000B631E4 /* charge4.png */,
+				D9F68F941E08C99000B631E4 /* charge5.png */,
+				D9F68F951E08C99000B631E4 /* charge6.png */,
+				D9F68F961E08C99000B631E4 /* charge7.png */,
+				D9F68F971E08C99000B631E4 /* charge8.png */,
+				D9F68F981E08C99000B631E4 /* charge9.png */,
+				D9F68F991E08C99000B631E4 /* resize_music.png */,
+				D9F68F9A1E08C99000B631E4 /* xlistview_arrow.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9F68F4A1E08C2C000B631E4 /* W200Update */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F68F7B1E08C2C000B631E4 /* Build configuration list for PBXNativeTarget "W200Update" */;
+			buildPhases = (
+				35BBFF18C4DDDBBFDC095F7D /* [CP] Check Pods Manifest.lock */,
+				D9F68F471E08C2C000B631E4 /* Sources */,
+				D9F68F481E08C2C000B631E4 /* Frameworks */,
+				D9F68F491E08C2C000B631E4 /* Resources */,
+				ED60E906DEEB9BC9BACAD905 /* [CP] Embed Pods Frameworks */,
+				2557C8D5BC2528C6E81632A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = W200Update;
+			productName = W200Update;
+			productReference = D9F68F4B1E08C2C000B631E4 /* W200Update.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9F68F661E08C2C000B631E4 /* W200UpdateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F68F7E1E08C2C000B631E4 /* Build configuration list for PBXNativeTarget "W200UpdateTests" */;
+			buildPhases = (
+				D9F68F631E08C2C000B631E4 /* Sources */,
+				D9F68F641E08C2C000B631E4 /* Frameworks */,
+				D9F68F651E08C2C000B631E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F68F691E08C2C000B631E4 /* PBXTargetDependency */,
+			);
+			name = W200UpdateTests;
+			productName = W200UpdateTests;
+			productReference = D9F68F671E08C2C000B631E4 /* W200UpdateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9F68F711E08C2C000B631E4 /* W200UpdateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F68F811E08C2C000B631E4 /* Build configuration list for PBXNativeTarget "W200UpdateUITests" */;
+			buildPhases = (
+				D9F68F6E1E08C2C000B631E4 /* Sources */,
+				D9F68F6F1E08C2C000B631E4 /* Frameworks */,
+				D9F68F701E08C2C000B631E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F68F741E08C2C000B631E4 /* PBXTargetDependency */,
+			);
+			name = W200UpdateUITests;
+			productName = W200UpdateUITests;
+			productReference = D9F68F721E08C2C000B631E4 /* W200UpdateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9F68F431E08C2C000B631E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "鱼鱼";
+				TargetAttributes = {
+					D9F68F4A1E08C2C000B631E4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = JGURANYE9A;
+						ProvisioningStyle = Automatic;
+					};
+					D9F68F661E08C2C000B631E4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9Q47E7XMRA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9F68F4A1E08C2C000B631E4;
+					};
+					D9F68F711E08C2C000B631E4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 9Q47E7XMRA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D9F68F4A1E08C2C000B631E4;
+					};
+				};
+			};
+			buildConfigurationList = D9F68F461E08C2C000B631E4 /* Build configuration list for PBXProject "W200Update" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9F68F421E08C2C000B631E4;
+			productRefGroup = D9F68F4C1E08C2C000B631E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9F68F4A1E08C2C000B631E4 /* W200Update */,
+				D9F68F661E08C2C000B631E4 /* W200UpdateTests */,
+				D9F68F711E08C2C000B631E4 /* W200UpdateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9F68F491E08C2C000B631E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F68F9F1E08C99000B631E4 /* charge0.png in Resources */,
+				D9F68F611E08C2C000B631E4 /* LaunchScreen.storyboard in Resources */,
+				D9F68FA11E08C99000B631E4 /* charge10.png in Resources */,
+				D9F68FA31E08C99000B631E4 /* charge3.png in Resources */,
+				D9F68F9C1E08C99000B631E4 /* button_green.png in Resources */,
+				D9F68FA01E08C99000B631E4 /* charge1.png in Resources */,
+				D9F68FA61E08C99000B631E4 /* charge6.png in Resources */,
+				D9F68FAB1E08C99000B631E4 /* xlistview_arrow.png in Resources */,
+				D9F68F9B1E08C99000B631E4 /* button_blue.png in Resources */,
+				D9F68F9E1E08C99000B631E4 /* charg1.png in Resources */,
+				D9F68FA41E08C99000B631E4 /* charge4.png in Resources */,
+				D9F68FA51E08C99000B631E4 /* charge5.png in Resources */,
+				D9F68F5E1E08C2C000B631E4 /* Assets.xcassets in Resources */,
+				D9F68F9D1E08C99000B631E4 /* button_scan_red.png in Resources */,
+				D9F68F881E08C5ED00B631E4 /* HomeViewController.xib in Resources */,
+				D9F68FA21E08C99000B631E4 /* charge2.png in Resources */,
+				D9F68FAA1E08C99000B631E4 /* resize_music.png in Resources */,
+				D9F68FA91E08C99000B631E4 /* charge9.png in Resources */,
+				D9F68FA71E08C99000B631E4 /* charge7.png in Resources */,
+				D9F68FA81E08C99000B631E4 /* charge8.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F68F651E08C2C000B631E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F68F701E08C2C000B631E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2557C8D5BC2528C6E81632A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W200Update/Pods-W200Update-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35BBFF18C4DDDBBFDC095F7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ED60E906DEEB9BC9BACAD905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-W200Update/Pods-W200Update-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9F68F471E08C2C000B631E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F68F531E08C2C000B631E4 /* AppDelegate.m in Sources */,
+				D9F68F501E08C2C000B631E4 /* main.m in Sources */,
+				D9F68F871E08C5ED00B631E4 /* HomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F68F631E08C2C000B631E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F68F6C1E08C2C000B631E4 /* W200UpdateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F68F6E1E08C2C000B631E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F68F771E08C2C000B631E4 /* W200UpdateUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F68F691E08C2C000B631E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F68F4A1E08C2C000B631E4 /* W200Update */;
+			targetProxy = D9F68F681E08C2C000B631E4 /* PBXContainerItemProxy */;
+		};
+		D9F68F741E08C2C000B631E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9F68F4A1E08C2C000B631E4 /* W200Update */;
+			targetProxy = D9F68F731E08C2C000B631E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9F68F5F1E08C2C000B631E4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9F68F601E08C2C000B631E4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9F68F791E08C2C000B631E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9F68F7A1E08C2C000B631E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9F68F7C1E08C2C000B631E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB397DE524BEB8ABCE8EE8C /* Pods-W200Update.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JGURANYE9A;
+				INFOPLIST_FILE = W200Update/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zto.W200Update;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9F68F7D1E08C2C000B631E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6CB6253AC5EFF248F2BD0E /* Pods-W200Update.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JGURANYE9A;
+				INFOPLIST_FILE = W200Update/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zto.W200Update;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D9F68F7F1E08C2C000B631E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9Q47E7XMRA;
+				INFOPLIST_FILE = W200UpdateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zto.W200UpdateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W200Update.app/W200Update";
+			};
+			name = Debug;
+		};
+		D9F68F801E08C2C000B631E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9Q47E7XMRA;
+				INFOPLIST_FILE = W200UpdateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zto.W200UpdateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/W200Update.app/W200Update";
+			};
+			name = Release;
+		};
+		D9F68F821E08C2C000B631E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9Q47E7XMRA;
+				INFOPLIST_FILE = W200UpdateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zto.W200UpdateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = W200Update;
+			};
+			name = Debug;
+		};
+		D9F68F831E08C2C000B631E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9Q47E7XMRA;
+				INFOPLIST_FILE = W200UpdateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zto.W200UpdateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = W200Update;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9F68F461E08C2C000B631E4 /* Build configuration list for PBXProject "W200Update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F68F791E08C2C000B631E4 /* Debug */,
+				D9F68F7A1E08C2C000B631E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F68F7B1E08C2C000B631E4 /* Build configuration list for PBXNativeTarget "W200Update" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F68F7C1E08C2C000B631E4 /* Debug */,
+				D9F68F7D1E08C2C000B631E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F68F7E1E08C2C000B631E4 /* Build configuration list for PBXNativeTarget "W200UpdateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F68F7F1E08C2C000B631E4 /* Debug */,
+				D9F68F801E08C2C000B631E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9F68F811E08C2C000B631E4 /* Build configuration list for PBXNativeTarget "W200UpdateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F68F821E08C2C000B631E4 /* Debug */,
+				D9F68F831E08C2C000B631E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9F68F431E08C2C000B631E4 /* Project object */;
+}
