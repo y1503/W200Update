@@ -242,27 +242,15 @@ int data2Pcm(U8 *pData, int dataLen, signed short *pPcmData)
 	}
 	//LOGD("########## sample_cnt = %d", sample_cnt);
 	return sample_cnt;
-	//pPcmData = pcm;
-	/* 生成文件 */
-	fp_signal = fopen("/sdcard/Download/signal_data.bin", "wb");
-	if(fp_signal == NULL)
-	{
-//		LOGI("缓存失败");
-		return 0;
-	}
-	fwrite((char *)pPcmData, 1, sample_cnt*2, fp_signal);
-	fclose(fp_signal);
-	//LOGI("缓存成功");
-	return sample_cnt;
 }
 
 extern int fileDataBytes;
 tWAVE_HEADER tWav_header;
 signed short *pcmData;
-int wavemake(JNIEnv *env, jobject obj, jbyteArray fileBytes, jint fileBytesLen, jbyteArray wavedata, jint wavedataLen)
+int wavemake(U8 fileBytes[], int fileBytesLen, U8 wavedata[], int wavedataLen)
 {
-	char * Bytes = (char *)(*env)->GetByteArrayElements(env,fileBytes, 0);
-	char * wave = (char *)(*env)->GetByteArrayElements(env,wavedata, 0);
+    char * Bytes= NULL;//(char *)(*env)->GetByteArrayElements(env,fileBytes, 0);
+    char * wave = NULL;//(char *)(*env)->GetByteArrayElements(env,wavedata, 0);
 	int i, j;
 	FILE *fp;
 	signed short left, right;
@@ -378,43 +366,9 @@ int wavemake(JNIEnv *env, jobject obj, jbyteArray fileBytes, jint fileBytesLen, 
 	memcpy(wave,(char *)pcmData,samples_preCh*tWav_header.Channels*2);
 	wavedataLen = samples_preCh*tWav_header.Channels *2;
 
-	(*env)->ReleaseByteArrayElements(env, fileBytes, Bytes, 0);
-	(*env)->ReleaseByteArrayElements(env, wavedata, wave, 0);
+//	(*env)->ReleaseByteArrayElements(env, fileBytes, Bytes, 0);
+//	(*env)->ReleaseByteArrayElements(env, wavedata, wave, 0);
 	//LOGI("back");
-	return wavedataLen;
-
-	/* 生成文件 */
-	//LOGI("创建wav文件");
-	fp = fopen("/sdcard/Download/test.wav", "wb");
-	if(fp == NULL)
-	{
-//		LOGI("创建wav文件失败");
-		return -1;
-	}
-		/*
-		 * 返回值：返回实际写入的数据块数目
-			（1）buffer：是一个指针，对fwrite来说，是要输出数据的地址；
-			（2）size：要写入内容的单字节数；
-			（3）count:要进行写入size字节的数据项的个数；
-			（4）stream:目标文件指针；
-			（5）返回实际写入的数据项个数count。
-		 */
-	fwrite(&tWav_header, 1, sizeof(tWAVE_HEADER), fp);	//wav头信息
-	//LOGI("写入wav文件波形");
-	fwrite((char *)&pcmData[0], 1, samples_preCh*tWav_header.Channels*2, fp); //wav data
-//		int count = samples_preCh*tWav_header.Channels*2;
-//		for (int i = 0; i < 64; i++)
-//		{
-//			LOGI("string %X", pcmData[i], 1024);//去字符串s%
-//		}
-	//fwrite((char *)&pcmData[0], 4, samples_preCh, fp);
-	fclose(fp);
-//	LOGI("创建wav文件成功");
-	free(pcmData);
-	//DEBUG(printf(" *End* \r\n");)
-	//while (1);
-	(*env)->ReleaseByteArrayElements(env, fileBytes, Bytes, 0);
-	(*env)->ReleaseByteArrayElements(env, wavedata, wave, 0);
 	return wavedataLen;
 }
 
